@@ -33,7 +33,7 @@ let title = css.merge(
   })
 )
 
-let subtitle = 	css({
+let subtitle = css({
   fontSize: '18px',
   fontWeight: 100,
   margin: 0
