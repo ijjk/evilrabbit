@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "evilrabb.it",
+  "alias": ["evilrabb.it"],
+  "builds": [
+    {"src": "**/*", "use": "@now/static"}
+  ],
+  "routes": [
+    {"src":".*", "headers": {
+      "cache-control": "s-maxage=86400"
+    }}
+  ]
+}
